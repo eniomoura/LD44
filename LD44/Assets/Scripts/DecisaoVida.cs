@@ -1,39 +1,64 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DecisaoVida : MonoBehaviour, IPointerClickHandler {
-    GameObject contadorVida;
-    Text textoVida;
+public class DecisaoVida : MonoBehaviour, IPointerClickHandler
+{
+    public int damage;
+    public GameObject contadorVida;
+    public GameObject consequencia;
+    public Text textoVida;
     int vida;
 
-    void Start () {
-        contadorVida = GameObject.Find ("contadorVida");
+    void Start()
+    {
+        contadorVida = GameObject.Find("contadorVida");
+        consequencia = transform.parent.transform.GetChild(1).gameObject;
     }
 
-    void Update () {
-        textoVida = contadorVida.GetComponent<Text> ();
-        vida = int.Parse (textoVida.text);
+    void Update()
+    {
+        textoVida = contadorVida.GetComponent<Text>();
+        vida = int.Parse(textoVida.text);
     }
 
-    public void OnPointerClick (PointerEventData pointerEventData) {
-        switch (name) {
+    public void OnPointerClick(PointerEventData pointerEventData)
+    {
+        switch (name)
+        {
             case "miojo":
-                textoVida.text = (vida - 50).ToString ();
+                textoVida.text = (vida - damage).ToString();
                 break;
             case "pizza":
-                textoVida.text = (vida - 50).ToString ();
+                textoVida.text = (vida - damage).ToString();
                 break;
-            case "ifood":
-                textoVida.text = (vida - 50).ToString ();
+            case "junk":
+                textoVida.text = (vida - damage).ToString();
                 break;
-            case "restaurante":
-                textoVida.text = (vida - 50).ToString ();
+            case "cook":
+                break;
+            case "sleep":
+                textoVida.text = (vida - damage).ToString();
+                break;
+            case "eat":
+                break;
+            case "allnight":
+                textoVida.text = (vida - damage).ToString();
                 break;
             default:
                 break;
         }
+        ShowConsequencia();
+    }
+
+    void ShowConsequencia(){
+        Text[] textos = transform.parent.parent.GetComponentsInChildren<Text>();
+        foreach(Text texto in textos){
+            texto.enabled=false;
+        }
+        consequencia.SetActive(true);
     }
 }
