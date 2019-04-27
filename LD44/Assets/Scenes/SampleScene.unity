@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 48672300}
   - component: {fileID: 48672302}
   - component: {fileID: 48672301}
+  - component: {fileID: 48672303}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -202,6 +203,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48672299}
   m_CullTransparentMesh: 0
+--- !u!114 &48672303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48672299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &78774141
 GameObject:
   m_ObjectHideFlags: 0
@@ -541,7 +554,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Press S: Yesterday''s Pizza'
+  m_Text: 'Press S: Yesterday''s pizza.'
 --- !u!222 &193278458
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -577,6 +590,7 @@ GameObject:
   - component: {fileID: 262485459}
   - component: {fileID: 262485461}
   - component: {fileID: 262485460}
+  - component: {fileID: 262485462}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -639,7 +653,7 @@ MonoBehaviour:
   m_Text: 'You saved about half an hour, The pizza was as delicious as it was greasy.
 
 
-    I feel sick already...'
+    I feel sick already...keep going'
 --- !u!222 &262485461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -648,6 +662,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262485458}
   m_CullTransparentMesh: 0
+--- !u!114 &262485462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262485458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &267099849
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,8 +915,7 @@ MonoBehaviour:
   - {fileID: 721091356}
   - {fileID: 541909692}
   - {fileID: 1279593124}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 474356182}
 --- !u!4 &428344575
 Transform:
   m_ObjectHideFlags: 0
@@ -995,6 +1020,7 @@ GameObject:
   - component: {fileID: 473343774}
   - component: {fileID: 473343776}
   - component: {fileID: 473343775}
+  - component: {fileID: 473343777}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -1054,7 +1080,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'You opened the door and talked to your friend, you lost about 2 hours but
+    at least the talk was a blast.
+
+
+    You get back to work with a smile in your face.'
 --- !u!222 &473343776
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1062,6 +1092,97 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 473343773}
+  m_CullTransparentMesh: 0
+--- !u!114 &473343777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473343773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &474356182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474356183}
+  - component: {fileID: 474356185}
+  - component: {fileID: 474356184}
+  m_Layer: 5
+  m_Name: WorkDay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &474356183
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474356182}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1111569902}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &474356184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474356182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: TESTE
+--- !u!222 &474356185
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474356182}
   m_CullTransparentMesh: 0
 --- !u!1 &474645373
 GameObject:
@@ -1596,6 +1717,7 @@ GameObject:
   - component: {fileID: 735470033}
   - component: {fileID: 735470035}
   - component: {fileID: 735470034}
+  - component: {fileID: 735470036}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -1668,6 +1790,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 735470032}
   m_CullTransparentMesh: 0
+--- !u!114 &735470036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735470032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &762609723
 GameObject:
   m_ObjectHideFlags: 0
@@ -1858,6 +1992,7 @@ GameObject:
   - component: {fileID: 969092389}
   - component: {fileID: 969092391}
   - component: {fileID: 969092390}
+  - component: {fileID: 969092392}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -1930,6 +2065,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 969092388}
   m_CullTransparentMesh: 0
+--- !u!114 &969092392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 969092388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &971924049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2456,6 +2603,7 @@ RectTransform:
   - {fileID: 1555765657}
   - {fileID: 1309564433}
   - {fileID: 1322356013}
+  - {fileID: 474356183}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2529,6 +2677,7 @@ GameObject:
   - component: {fileID: 1260147445}
   - component: {fileID: 1260147447}
   - component: {fileID: 1260147446}
+  - component: {fileID: 1260147448}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -2601,6 +2750,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1260147444}
   m_CullTransparentMesh: 0
+--- !u!114 &1260147448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260147444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1279593124
 GameObject:
   m_ObjectHideFlags: 0
@@ -2989,7 +3150,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Press A: Instant Noodles
+  m_Text: 'Press A: Instant noodles.
 
 '
 --- !u!222 &1402570549
@@ -3219,6 +3380,7 @@ GameObject:
   - component: {fileID: 1422792642}
   - component: {fileID: 1422792644}
   - component: {fileID: 1422792643}
+  - component: {fileID: 1422792645}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -3278,7 +3440,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'The knocks stopped after an while,well you gotta apologize later.
+
+
+    For now let''s work.'
 --- !u!222 &1422792644
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3287,6 +3452,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422792641}
   m_CullTransparentMesh: 0
+--- !u!114 &1422792645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422792641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1476778059
 GameObject:
   m_ObjectHideFlags: 0
@@ -3394,6 +3571,7 @@ GameObject:
   - component: {fileID: 1520076161}
   - component: {fileID: 1520076163}
   - component: {fileID: 1520076162}
+  - component: {fileID: 1520076164}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -3456,7 +3634,7 @@ MonoBehaviour:
   m_Text: 'You saved about an hour, which went straight to your stomach.
 
 
-    Well at least I ate something.'
+    Well at least I ate something, back to work.'
 --- !u!222 &1520076163
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3465,6 +3643,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520076160}
   m_CullTransparentMesh: 0
+--- !u!114 &1520076164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1520076160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1555765656
 GameObject:
   m_ObjectHideFlags: 0
@@ -4240,6 +4430,7 @@ GameObject:
   - component: {fileID: 2016555822}
   - component: {fileID: 2016555824}
   - component: {fileID: 2016555823}
+  - component: {fileID: 2016555825}
   m_Layer: 5
   m_Name: consequencia
   m_TagString: Untagged
@@ -4299,7 +4490,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: 'You friend thinked you were crazy,he slowly back out of the place.
+
+
+    Ashamed you go back to work...'
 --- !u!222 &2016555824
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4308,3 +4502,15 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2016555821}
   m_CullTransparentMesh: 0
+--- !u!114 &2016555825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016555821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef495ae56756d2a40988b5e17b94d88c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
