@@ -10,8 +10,8 @@ public class DecisaoVida : MonoBehaviour, IPointerClickHandler
     public int damage;
     public GameObject contadorVida;
     public GameObject consequencia;
-    public Text textoVida;
-    int vida;
+    public static Text textoVida;
+    public static int vida;
 
     void Start()
     {
