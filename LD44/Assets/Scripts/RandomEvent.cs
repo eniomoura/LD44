@@ -5,23 +5,39 @@ using UnityEngine;
 public class RandomEvent : MonoBehaviour
 {
     public GameObject[] eventWritten;
-    public Component[] writtenEvent;
     public int numberOfEventsRequired = 7;
-    public int[] UsedEvents;
-    
+    public GameObject gOScreen;
     public int i;
-    
-
-    void Start()
-    {
-        writtenEvent = GetComponentsInChildren(typeof(Canvas), true);
-        print(eventWritten.Length);
-        print(eventWritten);
+    public int limit = 100;
+    public GameObject currentScreen;
+    public void ChangeScreen(string nextScreen){
+        foreach (GameObject screen in eventWritten)
+        {
+            if(nextScreen.Equals(screen.name)){
+                currentScreen.SetActive(false);
+                screen.SetActive(true);
+                currentScreen=screen;
+                Utils.GetMasterUtils().currentScreen=screen;
+            }
+        }
     }
-
-    void Update()
-    {
+    public string ChooseRandomEvent(){
+        int i=0;
+        do{
+        gOScreen = eventWritten[Random.Range(0, eventWritten.Length)];
+        if(i>100){
+            Debug.LogError("LOOP INFINITO DE RANDOM EVENT");
+            break;
+        }
+        i++;
+        }while(gOScreen.GetComponent<EventAttributes>().hasBeenUsed == true);
         
+        print(gOScreen.name);
+        gOScreen.GetComponent<EventAttributes>().hasBeenUsed = true;
+        return gOScreen.name;
     }
-    
+
+    public static RandomEvent GetMasterUtils(){
+        return GameObject.Find("RandomEvent").GetComponent<RandomEvent>();
+    }
 }

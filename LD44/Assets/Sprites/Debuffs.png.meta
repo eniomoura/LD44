@@ -1,0 +1,627 @@
+fileFormatVersion: 2
+guid: e88c263b610976e4e8b579871c906187
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4503808966514176795
+    second: Debuffs_0
+  - first:
+      213: -4504417048999611447
+    second: Debuffs_1
+  - first:
+      213: -4975356045530540124
+    second: Debuffs_2
+  - first:
+      213: -8198717044293835435
+    second: Debuffs_3
+  - first:
+      213: 8225573040154943251
+    second: Debuffs_4
+  - first:
+      213: 1673430566805025140
+    second: Debuffs_5
+  - first:
+      213: 515401231439349709
+    second: Debuffs_6
+  - first:
+      213: -5604258058166958875
+    second: Debuffs_7
+  - first:
+      213: -4433175577956756644
+    second: Debuffs_8
+  - first:
+      213: -7726219156616906174
+    second: Debuffs_9
+  - first:
+      213: 6909902051766026093
+    second: Debuffs_10
+  - first:
+      213: 4884767397612085475
+    second: Debuffs_11
+  - first:
+      213: -8349003728539070466
+    second: Debuffs_12
+  - first:
+      213: -2419413034069211205
+    second: Debuffs_13
+  - first:
+      213: -8790668138465505019
+    second: Debuffs_14
+  - first:
+      213: -8866346649306550772
+    second: Debuffs_15
+  - first:
+      213: 7974260212941251372
+    second: Debuffs_16
+  - first:
+      213: 5612969771314432393
+    second: Debuffs_17
+  - first:
+      213: 4612664901563215378
+    second: Debuffs_18
+  - first:
+      213: -4790692649468546236
+    second: Debuffs_19
+  - first:
+      213: 5125956079719216714
+    second: Debuffs_20
+  - first:
+      213: -684116002432208968
+    second: Debuffs_21
+  - first:
+      213: 6818840196820127368
+    second: Debuffs_22
+  - first:
+      213: 413223912186479876
+    second: Debuffs_23
+  - first:
+      213: -4324897518794240444
+    second: Debuffs_24
+  - first:
+      213: 7307294146326578
+    second: Debuffs_25
+  - first:
+      213: 368839871782183173
+    second: Debuffs_26
+  - first:
+      213: 1504386171349749715
+    second: Debuffs_27
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Debuffs_0
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 532
+        width: 92
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eee7e0320b27eda49937e839f787b41d
+      internalID: 4503808966514176795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 532
+        width: 92
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 581e38b0ae8531446b08c5a8e6bd531e
+      internalID: -4504417048999611447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_2
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 786
+        width: 117
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8e34f511500224dad5ab5cc101eb54
+      internalID: -4975356045530540124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_3
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 532
+        width: 87
+        height: 241
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69a7589e9878d9409fb6ec2a9bfa63c
+      internalID: -8198717044293835435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 792
+        width: 109
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b685423500e934d909fd2c529e6fa8
+      internalID: 8225573040154943251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_6
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 788
+        width: 160
+        height: 178
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8650bcb78776c54a8323aa3bf489533
+      internalID: 515401231439349709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_7
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 531
+        width: 87
+        height: 240
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74946fbb276c47a489786113282f68a2
+      internalID: -5604258058166958875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 544
+        width: 118
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8137ad1d4815a4685e9ffec87007ab
+      internalID: -4433175577956756644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_9
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 741
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99a27e9d1900714bba8e1d8a329fd98
+      internalID: -7726219156616906174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_10
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 538
+        width: 108
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab745f659873f1543ba52e28c8ab74bb
+      internalID: 6909902051766026093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_13
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 541
+        width: 141
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89faa3229b16e1a42bdcce3705299a9f
+      internalID: -2419413034069211205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_14
+      rect:
+        serializedVersion: 2
+        x: 1430
+        y: 520
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f193cc7cecb142d4f940bd528b01184b
+      internalID: -8790668138465505019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_17
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 515
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e897d6df5f7d90c468ec3b4ce6de2436
+      internalID: 5612969771314432393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_18
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 300
+        width: 118
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29abe6ec8d5627046a2d3ae6083eda2f
+      internalID: 4612664901563215378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_19
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 320
+        width: 109
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191042432c5d7d24da78b9403cf77c07
+      internalID: -4790692649468546236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_21
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 314
+        width: 160
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee87df70495650743b55e78773190759
+      internalID: -684116002432208968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_22
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 56
+        width: 118
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf6e6a57d2422347a1ed6b4925df09e
+      internalID: 6818840196820127368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_24
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 76
+        width: 109
+        height: 186
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c72369a0614c7419a4e81a7475fa7c
+      internalID: -4324897518794240444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_25
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 56
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c45c290df85b64dbcc9b59fa0fe705
+      internalID: 7307294146326578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Debuffs_26
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 67
+        width: 141
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b0aba2b5cc8f149a7d4b50b8297871
+      internalID: 368839871782183173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8f7e192cbb672d341a6f27faaf7c4e92
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

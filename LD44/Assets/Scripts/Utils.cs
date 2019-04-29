@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+ using UnityEngine.SceneManagement;
 
 public class Utils : MonoBehaviour
 {
     public GameObject currentScreen;
     public GameObject[] screens;
-    public GameObject gOScreen;
     public GameObject[] usedEvents;
+    public int dia=1;
     public int i;
     public void ChangeScreen(string nextScreen){
         foreach (GameObject screen in screens)
@@ -16,6 +17,7 @@ public class Utils : MonoBehaviour
                 currentScreen.SetActive(false);
                 screen.SetActive(true);
                 currentScreen=screen;
+                RandomEvent.GetMasterUtils().currentScreen=screen;
             }
         }
     }
@@ -24,12 +26,7 @@ public class Utils : MonoBehaviour
         return GameObject.Find("Master").GetComponent<Utils>();
     }
 
-    public string ChooseRandomEvent(){
-        do{
-        gOScreen = screens[Random.Range(2, screens.Length)];
-        }while(gOScreen.GetComponent<EventAttributes>().hasBeenUsed == true);
-        print(gOScreen.name);
-        gOScreen.GetComponent<EventAttributes>().hasBeenUsed = true;
-        return gOScreen.name;
+    public static void RestartGame(){
+        SceneManager.LoadScene( SceneManager.GetActiveScene().name);
     }
 }
