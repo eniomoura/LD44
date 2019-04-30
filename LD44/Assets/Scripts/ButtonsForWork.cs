@@ -17,6 +17,8 @@ public class ButtonsForWork : MonoBehaviour
     public Text program;
 
     public Text design;
+
+    public Text counting;
     void Start()
     {
         //Calls the TaskOnClick/TaskWithParameters/ButtonClicked method when you click the Button
@@ -30,6 +32,7 @@ public class ButtonsForWork : MonoBehaviour
 
     void Update()
     {
+        counting.text = (limitOfClicks - i ).ToString();
     }
 
     void AddGameDesign()
@@ -86,7 +89,8 @@ public class ButtonsForWork : MonoBehaviour
         if (i >= limitOfClicks)
         {
             // Utils.GetMasterUtils().ChangeScreen(Utils.GetMasterUtils().ChooseRandomEvent());
-            if (Utils.GetMasterUtils().GetComponent<Utils>().dia > 3)
+            Debug.Log(Utils.GetMasterUtils().GetComponent<Utils>().dia);
+            if (Utils.GetMasterUtils().GetComponent<Utils>().dia >= 3)
             {
                 Utils.GetMasterUtils().ChangeScreen("ResultScreen");
                 GameObject.Find("iconeVida").SetActive(false);
@@ -98,6 +102,7 @@ public class ButtonsForWork : MonoBehaviour
             }
             else
             {
+                Debug.Log(Utils.GetMasterUtils().GetComponent<Utils>().dia+ "TESTE");
                 Utils.GetMasterUtils().ChangeScreen("EndOfDay");
                 limitOfClicks = 4;
                 i = 0;
@@ -105,7 +110,7 @@ public class ButtonsForWork : MonoBehaviour
         }
         else
         {
-            DecisaoVida.textoVida.text = (DecisaoVida.vida + 2).ToString();
+            DecisaoVida.textoVida.text = (DecisaoVida.vida + 1).ToString();
             DecisaoVida.vida = int.Parse(DecisaoVida.textoVida.text);
             i++;
         }

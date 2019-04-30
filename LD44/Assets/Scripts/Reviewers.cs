@@ -38,7 +38,10 @@ public class Reviewers : MonoBehaviour {
                     chText.text += ((reviewGrade1 + reviewGrade2 + reviewGrade3) / 3).ToString () + "/10";
                     break;
                 case "Life expectancy":
-                    chText.text = "You lost "+DecisaoVida.vida+" years of life, from the decisions you took this weekend.";
+                    chText.text = "You lost "+(DecisaoVida.vida-5)+" years of life, from the decisions you took this weekend.";
+                    break;
+                case "ReviewName":
+                    chText.text = "GAMEJAM - A look at the game: "+GameName.gameName;
                     break;
             }
         }
